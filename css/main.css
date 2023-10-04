@@ -21,6 +21,7 @@
   --fs-13: 13px;
 
   --border-eerie-black: hsla(0, 0%, 7%, 1);
+  --border-eerie-white: hsl(0, 0%, 100%);
   --fontFamily-inter: "Inter", sans-serif;
   --fontFamily-baloo: "Baloo Bhai 2", cursive;
 
@@ -122,6 +123,7 @@ icon-icon {
 
 .btn {
   background-color: var(--bg-white);
+  color: #001524;
   display: flex;
   align-items: center;
   max-width: max-content;
@@ -268,10 +270,12 @@ icon-icon {
   width: 100%;
   z-index: 4;
   padding-block: 20px;
+  color: #fff;
 }
 
 .header.active {
   background-color: var(--bg-white);
+  color: #333;
   box-shadow: var(--shadow-1);
   transition: all .3s ease-in;
 }
@@ -309,6 +313,10 @@ icon-icon {
   visibility: visible;
 }
 
+.navbar.active .btn-contact {
+  color: black;
+}
+
 .navbar-list {
   padding-block-start: 15px;
 }
@@ -325,6 +333,7 @@ icon-icon {
   padding: 20px 20px;
   gap: 4px;
   font-weight: 700;
+  color: var(--text-orange-crayola);
 }
 
 .btn-contact ion-icon {
@@ -333,7 +342,7 @@ icon-icon {
 
 /* Main */
 .hero {
-  background-color: #A1CCD1;
+  background-color: #001524;
   padding-block: 110px 7px;
 }
 
@@ -344,11 +353,12 @@ icon-icon {
 }
 
 .hero-title {
+  color: #fff;
   margin-block: 10px 20px;
 }
 
 .hero-text {
-  color: var(--text-eerie-black);
+  color: #fff;
   font-weight: var(--weight-semiBold);
   font-size: var(--fontSize-8);
   line-height: 2;
@@ -615,10 +625,6 @@ address.footer-text {
     padding-bottom: 100px;
   }
 
-  /* .about-ceo .biodata-ceo p {
-    font-size: 200px;
-  } */
-
   .offer-card {
     padding-inline: 90px;
   }
@@ -635,7 +641,7 @@ address.footer-text {
     padding-block: 0;
   }
   .header .container {
-    border-block-end: 2px solid var(--border-eerie-black);
+    border-block-end: 2px solid var(--border-eerie-white);
   }
   .nav-toggle {
     display: none;
@@ -653,7 +659,7 @@ address.footer-text {
   }
 
   .btn-contact {
-    border-inline-start: 2px solid var(--border-eerie-black);
+    border-inline-start: 2px solid var(--border-eerie-white);
     padding-inline-start: 50px;
     margin-inline-start: 20px;
   }
