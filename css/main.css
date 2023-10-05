@@ -123,7 +123,7 @@ icon-icon {
 
 .btn {
   background-color: var(--bg-white);
-  color: #001524;
+  color: #333;
   display: flex;
   align-items: center;
   max-width: max-content;
@@ -270,7 +270,7 @@ icon-icon {
   width: 100%;
   z-index: 4;
   padding-block: 20px;
-  color: #fff;
+  color: #333;
 }
 
 .header.active {
@@ -333,7 +333,7 @@ icon-icon {
   padding: 20px 20px;
   gap: 4px;
   font-weight: 700;
-  color: var(--text-orange-crayola);
+  color: #333;
 }
 
 .btn-contact ion-icon {
@@ -342,7 +342,7 @@ icon-icon {
 
 /* Main */
 .hero {
-  background-color: #001524;
+  background-color: var(--bg-wild-blue-yonder);
   padding-block: 110px 7px;
 }
 
@@ -353,12 +353,12 @@ icon-icon {
 }
 
 .hero-title {
-  color: #fff;
+  color: #333;
   margin-block: 10px 20px;
 }
 
 .hero-text {
-  color: #fff;
+  color: #333;
   font-weight: var(--weight-semiBold);
   font-size: var(--fontSize-8);
   line-height: 2;
@@ -595,7 +595,7 @@ address.footer-text {
   .class-btn {
     padding: 15px 30px;
   }
-
+  
   .hero {
     padding-block: 200px 130px;
   }
@@ -641,7 +641,7 @@ address.footer-text {
     padding-block: 0;
   }
   .header .container {
-    border-block-end: 2px solid var(--border-eerie-white);
+    border-block-end: 2px solid #333;
   }
   .nav-toggle {
     display: none;
@@ -659,7 +659,7 @@ address.footer-text {
   }
 
   .btn-contact {
-    border-inline-start: 2px solid var(--border-eerie-white);
+    border-inline-start: 2px solid #333;
     padding-inline-start: 50px;
     margin-inline-start: 20px;
   }
